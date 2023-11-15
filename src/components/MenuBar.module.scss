@@ -1,0 +1,52 @@
+.container{
+  width: 14%;
+  height: 100vh;
+  padding: 2%;
+  background-color: #f2f2f2;
+}
+
+.sideBar{
+  width: 100%;
+  
+  .instaButton:hover{
+ 
+    background-color: rgb(151, 156, 222);
+  }
+  .instaButton{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ 
+    span{
+      margin-left: -30%;
+      font-size: 25px;
+     
+    }
+
+    .instaLogo{
+      color: pink;
+      font-size: 40px;
+    }
+
+    .arrowUpShort{
+      color: pink;
+      font-size: 40px;
+    }
+  }
+
+  ul{
+    margin-left: 10%;
+
+    a{
+      text-decoration: none;
+    }
+    li{
+      width: 100%;
+      font-size: 20px;
+      margin: 30px 0;
+      color: black;
+    }
+  }
+}
